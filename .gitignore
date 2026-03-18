@@ -1,0 +1,28 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+target/
+build/
+out/
+
+# IntelliJ / VS Code / Eclipse
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
