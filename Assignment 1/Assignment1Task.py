@@ -20,6 +20,9 @@ class Assignment1:
         self.mThreads = []             # list for machine threads
         self.pThreads = []             # list for printer threads
 
+        self.semaphore = threading.Semaphore(self.NUM_PRINTERS)
+        self.binary = threading.Semaphore(1)
+
     def startSimulation(self):
         # Create Machine and Printer threads
         # Write code here
