@@ -99,7 +99,6 @@ class Assignment1:
                 if not self.isRequestSafe(self.machineID):
                     continue
 
-                self.isRequestSafe(self.machineID)
                 self.printRequest(self.machineID)
                 self.postRequest(self.machineID)
 
@@ -120,8 +119,8 @@ class Assignment1:
                 return False
            
             # Both semaphores acquired
-            return True
             print(f"Machine {id} will proceed")
+            return True
 
         def printRequest(self, id):
             print(f"Machine {id} Sent a print request")
